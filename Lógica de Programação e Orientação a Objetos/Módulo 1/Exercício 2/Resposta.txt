@@ -1,0 +1,1 @@
+Nenhuma Linha ou Coluna tinha uma quantidade igual de pessoas do mesmo gosto, sempre mais de um ou de outro. Quando foi feita a troca, aquela linha e coluna ficaram com números iguais de cada gosto.

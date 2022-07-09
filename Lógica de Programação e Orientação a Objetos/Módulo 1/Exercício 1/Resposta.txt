@@ -1,4 +1,4 @@
-Química: Socrates Ou Platão em primeiro
+Química: Socrates Ou Platão em primeiro 
 1 - Sócrates
 2 - Aristóteles
 3 - Platão
@@ -13,3 +13,4 @@ Matemática: Platão a frente de Aristóteles
 2 - Sócrates
 3 - Aristóteles
 
+Platão não pode ficar em primeiro em química pois não pode ficar em último nas outras duas.
