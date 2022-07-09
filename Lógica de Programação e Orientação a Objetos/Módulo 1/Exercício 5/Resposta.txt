@@ -1,0 +1,9 @@
+Inicio
+variavel logico a
+escreva "É terrestre?"
+leia a
+se (a=verdadeiro) entao
+	escreva "Cabe apenas uma pessoa?"
+	leia a
+	se (a=verdadeiro) entao
+	
