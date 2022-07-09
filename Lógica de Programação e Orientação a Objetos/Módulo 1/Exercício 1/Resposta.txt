@@ -1,0 +1,15 @@
+Química: Socrates Ou Platão em primeiro
+1 - Sócrates
+2 - Aristóteles
+3 - Platão
+
+Física: Platão a frente de Socrates
+1 - Aristóteles
+2 - Platão
+3 - Sócrates
+
+Matemática: Platão a frente de Aristóteles
+1 - Platão
+2 - Sócrates
+3 - Aristóteles
+
