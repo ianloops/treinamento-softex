@@ -12,9 +12,9 @@ Inicio
 
       escreval("Turma A")
       para i de 1 ate 2 faca
-           escreval("Informe o seu nome: ")
+           escreval("Digite o seu nome: ")
            leia(nome)
-           escreval("Informe a sua nota: ")
+           escreval("Digite a sua nota: ")
            leia(nota)
 
            se (nota >= 7) entao
@@ -38,9 +38,9 @@ Inicio
       escreval()
       escreval()
       para i de 1 ate 2 faca
-           escreva("Informe o seu nome: ")
+           escreva("Digite o seu nome: ")
            leia(nome)
-           escreva("Informe a sua nota: ")
+           escreva("Digite a sua nota: ")
            leia(nota)
 
            se (nota >= 7) entao
@@ -64,9 +64,9 @@ Inicio
       escreval()
       escreval()
       para i de 1 ate 2 faca
-           escreva("Informe o seu nome: ")
+           escreva("Digite o seu nome: ")
            leia(nome)
-           escreva("Informe a sua nota: ")
+           escreva("Digite a sua nota: ")
            leia(nota)
 
            se (nota >= 7) entao
@@ -90,9 +90,9 @@ Inicio
       escreval()
       escreval()
       para i de 1 ate 2 faca
-           escreva("Informe o seu nome: ")
+           escreva("Digite o seu nome: ")
            leia(nome)
-           escreva("Informe a sua nota: ")
+           escreva("Digite a sua nota: ")
            leia(nota)
 
            se (nota >= 7) entao

@@ -1,0 +1,12 @@
+aluno = "Pedro";
+nota1 = 5.0;
+nota2 = 5.0;
+faltas = 2;
+media = (nota1+nota2)/2;
+
+if media<7.0 :
+   print (aluno +": Reprovado");
+elif(faltas>3) :
+   print (aluno +": Reprovado");
+else:
+   print (aluno +": Aprovado");
