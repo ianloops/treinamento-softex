@@ -1,0 +1,18 @@
+qtd_rodas = 1;
+peso = 6001;
+qtd_pessoas_veiculo = 9;
+
+if qtd_rodas == 2 or qtd_rodas == 3:
+    print ("A");
+elif qtd_rodas == 4 and qtd_pessoas_veiculo <= 8 and peso <=3500:
+    print("B");
+elif qtd_rodas >= 4:
+    if peso > 3500 and peso < 6000:
+        print("C");
+    if qtd_pessoas_veiculo > 8:
+        print("D");
+    if peso>=6000:
+        print("E");
+else:
+    print("Não há tipo especificado");
+    
