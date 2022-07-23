@@ -1,0 +1,21 @@
+Leia Nome
+Leia Endereco
+Leia Cidade
+Leia CPF
+Leia RG
+Leia Idade
+Leia NomeDoPai
+Leia NomeDaMae
+Leia Peso
+Leia RendaBruta
+
+Escreva Nome
+Escreva Endereco
+Escreva Cidade
+Escreva CPF
+Escreva RG
+Escreva Idade
+Escreva NomeDoPai
+Escreva NomeDaMae
+Escreva Peso
+Escreva RendaBruta

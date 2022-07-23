@@ -1,0 +1,57 @@
+Ian Lucas e Matheus Andrade
+
+Questão 1:
+
+let a = 10;
+let b = 5;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+
+Questão 2:
+
+let nome = "matheus";
+let sobrenome = "andrade";
+console.log(nome+" "+sobrenome);
+
+Questão 3: 
+
+let dolar = 5.26;
+let valor = 50;
+let valorReal = valor * dolar;
+console.log(valorReal);
+
+Questão 4:
+
+function porcentagem (valor, porcentagem){
+   return valor/100 * porcentagem;
+}
+console.log(porcentagem(60, 50));
+
+Questão 5: 
+
+a)As saídas: 4, 1, 5, 1;
+
+Questão 6:
+
+function funcao (string){
+   return "Olá, " + string + "!"; 
+}
+console.log(funcao("Ian"));
+
+Questão 7:
+
+d) True, true, false, false, true;
+
+Questão 8: 
+
+Errado
+
+Questão 9:
+
+a)Number
+
+Questão 10: 
+
+e) valor e do tupo dos operandos

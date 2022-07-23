@@ -1,0 +1,206 @@
+Algoritmo "condicionais"
+
+Var
+   opcao: caractere;
+   qtd_pessoa: caractere;
+   pesado: caractere;
+   pedal: caractere;
+   capacete: caractere;
+   passageiro: caractere;
+   trilho: caractere;
+   pista: caractere;
+   alto: caractere;
+   carroceria: caractere;
+   cobrador: caractere;
+   leve: caractere;
+   
+   pular: caractere;
+   viajar: caractere;
+   devagar: caractere;
+   piloto: caractere;
+   asas: caractere;
+   vertical: caractere;
+   
+   agua: caractere;
+   navega: caractere;
+   vela: caractere;
+   motor: caractere;
+   altoNavio: caractere;
+   descoberto: caractere;
+
+Inicio
+      escreva("É terrestre? (s/n) ")
+      leia(opcao)
+      
+      se (opcao = "s") entao
+         escreva("Cabe apenas uma pessoa? (s/n)")
+         leia(qtd_pessoa)
+         
+         se (qtd_pessoa = "s") entao
+            escreva("É pesado? (s/n)")
+            leia(pesado)
+            
+            se (pesado = "s") entao
+               escreva("Trator")
+               
+               senao se (pesado = "n") entao
+                     escreva("Tem pedal? (s/n)")
+                     leia(pedal)
+                     
+                     se (pedal = "s") entao
+                        escreva("Bicicleta")
+                     fimse
+               fimse
+               
+               senao se (qtd_pessoa = "n") entao
+                     escreva("Usa capacete? (s/n)")
+                     leia(capacete)
+                     
+                     se (capacete = "s") entao
+                        escreva("Moto")
+                        
+                        senao se (capacete = "n") entao
+                              escreva("Tem passageiro? (s/n)")
+                              leia(passageiro)
+                              
+                              se (passageiro = "s") entao
+                                 escreva("Usa trilho? (s/n)")
+                                 leia(trilho)
+                                 
+                                 se (trilho = "s") entao
+                                    escreva("Trem")
+                                    
+                                    senao se (trilho = "n") entao
+                                          escreva("Anda na pista? (s/n)")
+                                          leia(pista)
+                                          
+                                          se (pista = "s") entao
+                                             escreva("É alto? (s/n)")
+                                             leia(alto)
+                                             
+                                             se (alto = "s") entao
+                                                escreva("Usa carroceria? (s/n)")
+                                                leia(carroceria)
+                                                
+                                                se (carroceria = "s") entao
+                                                   escreva("Caminhão")
+                                                   
+                                                   senao se (carroceria = "n") entao
+                                                         escreva("Pode ter cobrador? (s/n)")
+                                                         leia(cobrador)
+                                                         
+                                                         se (cobrador = "s") entao
+                                                            escreva("ônibus")
+                                                         fimse
+                                                   fimse
+                                                
+                                                senao se (alto = "n") entao
+                                                      escreva("É veiculo leve? (s/n)")
+                                                      leia(leve)
+                                                      
+                                                      se (leve = "s") entao
+                                                         escreva("Carro")
+                                                      fimse
+                                          fimse
+                                    fimse
+                              fimse
+                        fimse
+               fimse
+            fimse
+            
+            senao se (opcao = "n") entao
+                  escreva("É aéreo? (s/n)")
+                  leia(opcao)
+                  
+                  se (opcao = "s") entao
+                     escreva("Precisa pular? (s/n)")
+                     leia(pular)
+                     
+                     se (pular = "s") entao
+                        escreva("Asa delta")
+                        
+                        senao se (pular = "n") entao
+                              escreva("Viaja dentro? (s/n)")
+                              leia(viajar)
+                              
+                              se (viajar = "s") entao
+                                 escreva("É devagar? (s/n)")
+                                 leia(devagar)
+                                 
+                                 se (devagar = "s") entao
+                                    escreva("Balão")
+                                    
+                                    senao se (devagar = "n") entao
+                                          escreva("Tem piloto? (s/n)")
+                                          leia(piloto)
+                                          
+                                          se (piloto = "s") entao
+                                             escreva("Possui asa fixas? (s/n)")
+                                             leia(asas)
+                                             
+                                             se (asas = "s") entao
+                                                escreva("Avião")
+                                                
+                                                senao se (asas = "n") entao
+                                                      escreva("Faz voo vertical? (s/n)")
+                                                      leia(vertical)
+                                                      
+                                                      se (vertical = "s") entao
+                                                         escreva("Helicóptero")
+                                                      fimse
+                                                fimse
+                                          fimse
+                                    fimse
+                              fimse
+                        fimse
+                        
+                        senao se (opcao = "n") entao
+                              escreva("É aquático? ")
+                              leia(opcao)
+
+                              se (opcao = "s") entao
+                                 escreva("É coberto d´água? (s/n)")
+                                 leia(agua)
+                                 
+                                 se (agua = "s") entao
+                                    escreva("Submarino")
+                                    
+                                    senao se (agua = "n") entao
+                                          escreva("Navega na água? (s/n)")
+                                          leia(navega)
+                                          
+                                          se (navega = "s") entao
+                                             escreva("Possui vela? (s/n)")
+                                             leia(vela)
+                                             
+                                             se (vela = "s") entao
+                                                escreva("Barco")
+                                                
+                                                senao se (vela = "n") entao
+                                                      escreva("Tem motor? (s/n)")
+                                                      leia(motor)
+                                                      
+                                                      se (motor = "s") entao
+                                                         escreva("É alto? (s/n)")
+                                                         leia(altoNavio)
+                                                         
+                                                         se (altoNavio = "s") entao
+                                                            escreva("Navio")
+
+                                                            senao se (altoNavio = "n") entao
+                                                                  escreva("Pode ser descoberto? (s/n)")
+                                                                  leia(descoberto)
+                                                                  
+                                                                  se (descoberto = "s") entao
+                                                                     escreva("Lancha")
+                                                                  fimse
+                                                            fimse
+                                                      fimse
+                                                fimse
+                                          fimse
+                                    fimse
+                              fimse
+                        fimse
+                        
+                  fimse
+Fimalgoritmo

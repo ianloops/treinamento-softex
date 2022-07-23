@@ -1,0 +1,153 @@
+Algoritmo "Aprovados"
+
+Var
+   nota, maiorNotaA, maiorNotaB, maiorNotaC, maiorNotaD: real;
+   aprovadosA, aprovadosB, aprovadosC, aprovadosD, i: inteiro;
+   nome, alunoMaiorNotaA, alunoMaiorNotaB, alunoMaiorNotaC, alunoMaiorNotaD, turmaA, turmaB, turmaC, turmaD: caractere;
+
+Inicio
+      //Inicio da turma A;
+      aprovadosA <- 0
+      maiorNotaA <- 0
+
+      escreval("Turma A")
+      para i de 1 ate 2 faca
+           escreval("Digite o seu nome: ")
+           leia(nome)
+           escreval("Digite a sua nota: ")
+           leia(nota)
+
+           se (nota >= 7) entao
+              aprovadosA <- aprovadosA + 1 //Quantidade de alunos aprovados da turma A;
+
+              se (nota > maiorNotaA) entao
+                 maiorNotaA <- nota //Maior nota da Turma A;
+                 alunoMaiorNotaA <- nome //Nome do aluno com a maior nota da turma A
+                 turmaA <- "A"
+              fimse
+           fimse
+      fimpara
+      //Fim da turma A;
+
+      //Inicio da turma B;
+      aprovadosB <- 0
+      maiorNotaB <- 0
+
+      escreval()
+      escreva("Turma B")
+      escreval()
+      escreval()
+      para i de 1 ate 2 faca
+           escreva("Digite o seu nome: ")
+           leia(nome)
+           escreva("Digite a sua nota: ")
+           leia(nota)
+
+           se (nota >= 7) entao
+              aprovadosB <- aprovadosB + 1 //Quantidade de alunos aprovados da turma B;
+
+              se (nota > maiorNotaB) entao
+                 maiorNotaB <- nota //Maior nota da Turma B;
+                 alunoMaiorNotaB <- nome //Nome do aluno com a maior nota da turma B
+                 turmaB <- "B"
+              fimse
+           fimse
+      fimpara
+      //Fim da turma B;
+      
+      //Inicio da turma C;
+      aprovadosC <- 0
+      maiorNotaC <- 0
+
+      escreval()
+      escreva("Turma C")
+      escreval()
+      escreval()
+      para i de 1 ate 2 faca
+           escreva("Digite o seu nome: ")
+           leia(nome)
+           escreva("Digite a sua nota: ")
+           leia(nota)
+
+           se (nota >= 7) entao
+              aprovadosC <- aprovadosC + 1 //Quantidade de alunos aprovados da turma C;
+
+              se (nota > maiorNotaC) entao
+                 maiorNotaC <- nota //Maior nota da Turma C;
+                 alunoMaiorNotaC <- nome //Nome do aluno com a maior nota da turma C
+                 turmaC <- "C"
+              fimse
+           fimse
+      fimpara
+      //Fim da turma C;
+      
+      //Inicio da turma D;
+      aprovadosD <- 0
+      maiorNotaD <- 0
+
+      escreval()
+      escreva("Turma D")
+      escreval()
+      escreval()
+      para i de 1 ate 2 faca
+           escreva("Digite o seu nome: ")
+           leia(nome)
+           escreva("Digite a sua nota: ")
+           leia(nota)
+
+           se (nota >= 7) entao
+              aprovadosD <- aprovadosD + 1 //Quantidade de alunos aprovados da turma D;
+
+              se (nota > maiorNotaD) entao
+                 maiorNotaD <- nota //Maior nota da Turma D;
+                 alunoMaiorNotaD <- nome //Nome do aluno com a maior nota da turma D
+                 turmaD <- "D"
+              fimse
+           fimse
+      fimpara
+      //Fim da turma D;
+
+      escreval()
+
+      se (maiorNotaA > maiorNotaB) e (maiorNotaA > maiorNotaC) e (maiorNotaA > maiorNotaD) entao
+          escreval("O aluno com a maior nota se chama ", alunoMaiorNotaA, " com nota igual a ", maiorNotaA, " e está na turma ", turmaA)
+
+          senao
+               se (maiorNotaB > maiorNotaA) e (maiorNotaB > maiorNotaC) e (maiorNotaB > maiorNotaD) entao
+                  escreval("O aluno com a maior nota se chama ", alunoMaiorNotaB, " com nota igual a ", maiorNotaB, " e está na turma ", turmaB)
+
+                  senao
+                       se (maiorNotaC > maiorNotaA) e (maiorNotaC > maiorNotaB) e (maiorNotaC > maiorNotaD) entao
+                          escreval("O aluno com a maior nota se chama ", alunoMaiorNotaC, " com nota igual a ", maiorNotaC, " e está na turma ", turmaC)
+
+                          senao
+                               se (maiorNotaD > maiorNotaA) e (maiorNotaD > maiorNotaB) e (maiorNotaD > maiorNotaC) entao
+                                  escreval("O aluno com a maior nota se chama ", alunoMaiorNotaD, " com nota igual a ", maiorNotaD, " e está na turma ", turmaD)
+                               fimse
+                       fimse
+               fimse
+      fimse
+
+      escreval()
+      escreval("Quantidade de alunos aprovados na turma A: ", aprovadosA, " alunos")
+      escreval("A maior nota da turma A é ", maiorNotaA)
+      escreval("O aluno com a maior nota da turma A é ", alunoMaiorNotaA)
+      
+      escreval()
+      escreval("Quantidade de alunos aprovados na turma B: ", aprovadosB, " alunos")
+      escreval("A maior nota da turma B é ", maiorNotaB)
+      escreval("O aluno com a maior nota da turma B é ", alunoMaiorNotaB)
+      
+      escreval()
+      escreval("Quantidade de alunos aprovados na turma C: ", aprovadosC, " alunos")
+      escreval("A maior nota da turma C é ", maiorNotaC)
+      escreval("O aluno com a maior nota da turma C é ", alunoMaiorNotaC)
+      
+      escreval()
+      escreval("Quantidade de alunos aprovados na turma D: ", aprovadosD, " alunos")
+      escreval("A maior nota da turma D é ", maiorNotaD)
+      escreval("O aluno com a maior nota da turma D é ", alunoMaiorNotaD)
+      
+      escreval()
+      escreval("Total de alunos aprovados juntando todas as turmas: ", aprovadosA + aprovadosB + aprovadosC + aprovadosD)
+Fimalgoritmo
