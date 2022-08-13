@@ -1,5 +1,5 @@
-class numeroComplexo:
-    def _init_(self, n1, n2, n3, n4, n5, n6):
+class NumeroComplexo():
+    def __init__(self, n1, n2, n3, n4, n5, n6):
         self.num1 = complex(n1, n2)
         self.num2 = complex(n3, n4)
         self.num3 = complex(n5, n6)
@@ -32,3 +32,6 @@ class numeroComplexo:
         self.subtracao()
         self.multiplicacao()
         self.divisao()
+
+a = NumeroComplexo(1, 2, 3, 5, 6, 7)
+a.tudo()
