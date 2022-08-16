@@ -1,0 +1,9 @@
+const juntaNomes = (nome, sobrenome) =>{
+    return nome+" "+sobrenome;
+}
+
+let nome="Ian";
+let sobrenome="Lopes";
+
+let nomeCompleto = juntaNomes(nome, sobrenome);
+console.log(nomeCompleto);

@@ -1,0 +1,10 @@
+function eMaior(n1, n2){
+    if (n1>n2) {
+        return n1;
+    } else {
+        return n2;
+    }
+}
+
+console.log(eMaior(5,7));
+console.log(eMaior(8,5));

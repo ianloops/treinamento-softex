@@ -1,0 +1,6 @@
+let nome="Ian";
+let sobrenome="Lopes";
+let idade=25;
+
+let resultado = nome+" "+sobrenome+" terá "+idade+" anos";
+console.log(resultado)

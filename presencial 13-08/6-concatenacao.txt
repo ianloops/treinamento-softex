@@ -1,0 +1,6 @@
+function escreverCartao(titulo, nome, sobrenome){
+    return "Título: "+titulo+"\nNome: "+nome+" "+sobrenome;
+}
+
+resultado=escreverCartao("Javascript", "Ian", "Lucas")
+console.log(resultado);
