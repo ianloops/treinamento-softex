@@ -1,0 +1,7 @@
+dio.me
+
+Importa as informações do site no idioma escolhido através de um JSON.
+
+op.gg
+
+Altera o tema entre "dark" e "light" de acordo com o navegador do usuário
