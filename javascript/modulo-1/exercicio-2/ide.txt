@@ -1,0 +1,2 @@
+Minha escolha foi o editor visual studio code, é altamente recomendado para programação em Javascript devido aos seus plugins, possibilitando transformar num ambiente de desenvolvimento completo. 
+Para complementear o meu ambiente, utilizei os plugins JavaScript (ES6) code snippets(sugestão para completar palavras reservadas, acelerando e facilitando o desenvolvimento em JS), Dracula Official(Tema agradável para que não canse a vista), Bracket Pair Colorization Toggler(Altera a cor dos pares de chaves para melhor identificação dos blocos de código), entre outros.
